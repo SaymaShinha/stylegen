@@ -64,8 +64,8 @@ export default function Login() {
 
                         {/* Box 1 */}
                         <div className="text-white p-6 rounded-lg">
-                            <div className="p-4 text-center">
-                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
+                            <div className="flex flex-col items-center justify-center text-center gap-2">
+                                <div className="bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center">
                                     <i className="fa-solid fa-shield"></i>
                                 </div>
                                 <h3 className="font-bold">Secure</h3>
@@ -75,8 +75,8 @@ export default function Login() {
 
                         {/* Box 2 */}
                         <div className="text-white p-6 rounded-lg">
-                            <div className="p-4 text-center">
-                                <div className="bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
+                            <div className="flex flex-col items-center justify-center text-center gap-2">
+                                <div className="bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center">
                                     <i className="fa-solid fa-bolt"></i>
                                 </div>
                                 <div className="font-bold">Fast</div>
@@ -86,8 +86,8 @@ export default function Login() {
 
                         {/* Box 3 */}
                         <div className="text-white p-6 rounded-lg">
-                            <div className="p-4 text-center">
-                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
+                            <div className="flex flex-col items-center justify-center text-center gap-2">
+                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center">
                                     <i className="fa-solid fa-shield"></i>
                                 </div>
                                 <h3 className="font-bold">Protected</h3>
@@ -97,8 +97,8 @@ export default function Login() {
 
                         {/* Box 4 */}
                         <div className="text-white p-6 rounded-lg">
-                            <div className="p-4 text-center">
-                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
+                            <div className="flex flex-col items-center justify-center text-center gap-2">
+                                <div className="bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center">
                                     <i className="fa-solid fa-lock"></i>
                                 </div>
                                 <h3 className="font-bold">Private</h3>
