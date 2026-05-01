@@ -17,7 +17,7 @@ export default function Login() {
                         <div className="grid grid-cols-2 gap-6 items-center justify-center">
                             {/* Box 1 */}
                             <div className="p-2">
-                                <div className="text-center rounded-lg border border-gray-400 px-5 py-2">
+                                <div className="text-center rounded-lg border border-gray-400 px-2 py-2">
                                     <h3 className="font-bold">Admin</h3>
                                     <p className="font-sans">admin@stylegen.com</p>
                                 </div>
@@ -25,7 +25,7 @@ export default function Login() {
 
                             {/* Box 2 */}
                             <div className="p-2">
-                                <div className="text-center rounded-lg border border-gray-400 px-5 py-2">
+                                <div className="text-center rounded-lg border border-gray-400 px-2 py-2">
                                     <h3 className="font-bold">Customer</h3>
                                     <p className="font-sans">customer@example.com</p>
                                 </div>
@@ -56,7 +56,7 @@ export default function Login() {
                     <p className='font-sans pb-5'>New to StyleGen? <span className='text-amber-800'>Create an account</span></p>
                 </div>
 
-                <div className='bg-amber-800 flex flex-col items-center text-center justify-center text-white'>
+                <div className='bg-amber-800 flex flex-col items-center text-center justify-center text-white p-6'>
                     <h1 className='font-bold text-2xl'>Premium Leather Goods</h1>
                     <p className='px-12'>Access your artisan portal to manage orders, track shipments, and discover our latest handcrafted collections.</p>
 
@@ -65,7 +65,7 @@ export default function Login() {
                         {/* Box 1 */}
                         <div className="text-white p-6 rounded-lg">
                             <div className="p-4 text-center">
-                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-12">
+                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
                                     <i className="fa-solid fa-shield"></i>
                                 </div>
                                 <h3 className="font-bold">Secure</h3>
@@ -76,7 +76,7 @@ export default function Login() {
                         {/* Box 2 */}
                         <div className="text-white p-6 rounded-lg">
                             <div className="p-4 text-center">
-                                <div className="bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-12">
+                                <div className="bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
                                     <i className="fa-solid fa-bolt"></i>
                                 </div>
                                 <div className="font-bold">Fast</div>
@@ -87,7 +87,7 @@ export default function Login() {
                         {/* Box 3 */}
                         <div className="text-white p-6 rounded-lg">
                             <div className="p-4 text-center">
-                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-12">
+                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
                                     <i className="fa-solid fa-shield"></i>
                                 </div>
                                 <h3 className="font-bold">Protected</h3>
@@ -98,7 +98,7 @@ export default function Login() {
                         {/* Box 4 */}
                         <div className="text-white p-6 rounded-lg">
                             <div className="p-4 text-center">
-                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-12">
+                                <div className=" bg-amber-600 text-2xl rounded-lg w-10 h-10 flex items-center justify-center ml-10">
                                     <i className="fa-solid fa-lock"></i>
                                 </div>
                                 <h3 className="font-bold">Private</h3>
