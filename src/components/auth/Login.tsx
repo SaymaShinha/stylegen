@@ -19,7 +19,7 @@ export default function Login() {
                             <div className="p-2">
                                 <div className="text-center rounded-lg border border-gray-400 px-2 py-2">
                                     <h3 className="font-bold">Admin</h3>
-                                    <p className="font-sans">admin@stylegen.com</p>
+                                    <p className="font-sans break-all">admin@stylegen.com</p>
                                 </div>
                             </div>
 
@@ -27,7 +27,7 @@ export default function Login() {
                             <div className="p-2">
                                 <div className="text-center rounded-lg border border-gray-400 px-2 py-2">
                                     <h3 className="font-bold">Customer</h3>
-                                    <p className="font-sans">customer@example.com</p>
+                                    <p className="font-sans break-all">customer@example.com</p>
                                 </div>
                             </div>
                         </div>
