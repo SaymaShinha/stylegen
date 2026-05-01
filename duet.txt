@@ -1,0 +1,114 @@
+ npx create-next-app@latest stylegen \
+  --typescript \
+  --eslint \
+  --app \
+  --src-dir \
+  --import-alias "@/*" \
+  --no-tailwind \
+  --no-turbopack
+
+npm install -D tailwindcss@^3.4.0 postcss autoprefixer
+
+npx tailwindcss init -p
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-200;
+  }
+
+  body {
+    @apply font-sans bg-white text-gray-900 antialiased;
+  }
+}
+
+@layer components {
+  input[type="checkbox"] {
+    @apply rounded border-gray-300 text-orange-500 focus:ring-orange-500;
+  }
+}
+
+@layer utilities {
+  .font-display {
+    font-family: "Playfair Display", serif;
+  }
+
+  .animate-in {
+    animation: animateIn 0.3s ease-out;
+  }
+
+  @keyframes animateIn {
+    from {
+      opacity: 0;
+      transform: translateY(10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+
+
+
+
+//tailwind.config.js
+ 
+import forms from "@tailwindcss/forms";
+import typography from "@tailwindcss/typography";
+
+const config = {
+  content: [
+    "./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/components/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
+  ],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: "#fff7f0",
+          100: "#ffecd9",
+          200: "#ffd0b3",
+          300: "#ffad80",
+          400: "#ff7f45",
+          500: "#FF5A1F",
+          600: "#e64a0a",
+          700: "#bf3a08",
+          800: "#99300d",
+          900: "#7c2a0f",
+        },
+      },
+      fontFamily: {
+        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["Playfair Display", "serif"],
+      },
+    },
+  },
+  plugins: [forms, typography],
+};
+
+export default config;
+
+
+npm install -D @tailwindcss/forms @tailwindcss/typography
+
+
+npm install zustand @tanstack/react-query react-hook-form @hookform/resolvers zod
+npm install lucide-react clsx tailwind-merge framer-motion
+npm install @radix-ui/react-dialog @radix-ui/react-dropdown-menu @radix-ui/react-tabs @radix-ui/react-select @radix-ui/react-label
+npm install react-hot-toast date-fns swiper react-image-gallery
+
+# Dev dependencies
+npm install -D @types/node @types/react @types/react-dom
+npm install -D @tailwindcss/forms @tailwindcss/typography
+npm install -D prettier eslint-config-prettier
+npm install -D @headlessui/react @heroicons/react
