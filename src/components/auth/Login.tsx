@@ -58,9 +58,9 @@ export default function Login() {
 
                 <div className='bg-amber-800 flex flex-col items-center text-center justify-center text-white p-6'>
                     <h1 className='font-bold text-2xl'>Premium Leather Goods</h1>
-                    <p className='px-12'>Access your artisan portal to manage orders, track shipments, and discover our latest handcrafted collections.</p>
+                    <p className='items-center justify-center'>Access your artisan portal to manage orders, track shipments, and discover our latest handcrafted collections.</p>
 
-                    <div className="grid grid-cols-2 gap-6 items-center justify-center">
+                    <div className="grid grid-cols-2 gap-6 items-center justify-center py-5">
 
                         {/* Box 1 */}
                         <div className="text-white p-6 rounded-lg">
